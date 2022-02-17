@@ -43,14 +43,14 @@ const Navbar = () => {
                 */}
 
            <li><Link className='li' to="/"> Home </Link> </li>
-             {/* <li><Link className='li' to="/about"> About </Link></li>
-            */}
+             <li><Link className='li' to="/about"> About </Link></li>
+            
             <li><Link className='li' to="/login"> Login </Link></li>  
-                  {/* <li><Link className='li' to="/contact"> Contact </Link></li>
-            */}
+               <li><Link className='li' to="/contact"> Contact </Link></li>
+            
            <li><Link className='li'to="/Signup">  Signup </Link></li>  
-           {/* <li><Link className='li'to="/Logout">  Logout </Link></li>  
-                    */}
+            <li><Link className='li'to="/Logout">  Logout </Link></li>  
+                    
                 </ul>
             </nav>
             <Link to="/login" id="login-register-button">Login</Link>
