@@ -5,7 +5,7 @@ import Contact from './Contact';
 import Signup from './Signup'; 
 import Login from './Login';
 import 'bootstrap/dist/css/bootstrap.css';
-//import Logout from './Logout';
+import Logout from './Logout';
 
 
 import {BrowserRouter as  Router,Routes, Route,Link} from 'react-router-dom';
@@ -67,8 +67,8 @@ const Navbar = () => {
        <Route path="/contact" element={<Contact />}/>
          <Route path="/signup" element={<Signup />} />
          <Route path="/login" element={<Login />} />
-         {/* <Route path="/logout" element={<Logout />} />
-        */}
+          <Route path="/logout" element={<Logout />} />
+        
    </Routes>
    
    </Router>
